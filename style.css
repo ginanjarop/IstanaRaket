@@ -1,0 +1,93 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.banner {
+  height: 100vh;
+  background: linear-gradient(
+      rgba(0, 0, 0, 0.55),
+      rgba(0, 0, 0, 0.55)
+    ),
+    url("https://www.shutterstock.com/image-vector/badminton-tournament-poster-sports-event-260nw-2519124879.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.btn-red {
+  background-color: #8b0000;
+  color: white;
+}
+
+.btn-red:hover {
+  background-color: #5c0000;
+  color: white;
+}
+
+/* .card img {
+  height: 220px;
+  object-fit: cover;
+} */
+
+.main-color {
+  background-color: #1b5e20;
+}
+
+
+.service-section {
+  background-color: #f8f9fa;
+}
+
+.service-card {
+  background-color: #ffffff;
+  border-radius: 15px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.service-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.15);
+}
+
+.icon-service {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  background-color: red;
+  color: #ffffff;
+  font-size: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+review-section {
+      background: linear-gradient(135deg, #7b1fa2, #4a148c);
+      color: green;
+    }
+
+    .review-card {
+      background: rgba(255,255,255,0.08);
+      border: 1px solid rgba(255,255,255,0.2);
+      border-radius: 15px;
+      padding: 25px;
+      position: relative;
+      transition: 0.3s ease;
+      height: 100%;
+    }
+
+    .review-card:hover {
+      background: rgba(255,255,255,0.15);
+      transform: translateY(-5px);
+    }
+
+    .quote {
+      font-size: 40px;
+    }
+
+.potret {
+  aspect-ratio: 1 / 1;
+}
+
+.footer {
+  background-color: rgb(58, 58, 58);
+}
